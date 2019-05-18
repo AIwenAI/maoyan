@@ -5,5 +5,10 @@ module.exports = override(
     libraryName: 'antd-mobile',
     style: 'css',
   }),
-  addLessLoader()
+  // less的配置
+  addLessLoader(),
+  //配置别名
+  // addWebpackAlias({
+  //   '@': path.resolve(__dirname, './src')
+  // })
 )

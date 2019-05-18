@@ -15,7 +15,6 @@ export const LiWrapper = styled.li`
   line-height: 48px;
   text-align: center;
   a{
-    text-decoration: none;
     color: #696969;
     &.active{
       color: #f03d37;
